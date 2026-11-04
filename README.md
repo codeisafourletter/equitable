@@ -1,4 +1,11 @@
 # equitable
+
+## Status
+
+Historical project proposal, not an implemented OCR pipeline. This repository contains the proposal and its CC0 license. The service and processing steps below describe the original plan; no runnable code or verified current integration is included.
+
+## Original proposal
+
 Equitable - An Exploratory Deep Dive into Bias and Bylaws
 
 Data is often stored in formats which are not ideal for analysis. Extracting usable data from pdf files, specifically scanned pdf files, can pose a frustrating and time-consuming problem. OCR is an amazing technology which can help to solve this problem; however, it also has its own pain points. Often you will wind up with unwanted artifacts where the software has converted a mark or smudge from the scanned image into ASCII characters. The goal of this project is to code a simple method to take scanned PDF files, convert to txt OCR, scrub the artifacts, clean up the formatting and then generate “true” digital pdfs, which can easily incorporated into one's workflow and for further analysis and characterization. 
